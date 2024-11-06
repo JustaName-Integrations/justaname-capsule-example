@@ -12,6 +12,13 @@ import {
 } from "wagmi";
 import { http } from "wagmi";
 import { sepolia } from "wagmi/chains";
+import {
+  JustWeb3Provider,
+  JustWeb3ProviderConfig,
+  JustWeb3Button,
+} from "@justweb3/widget";
+import "@usecapsule/react-sdk/styles.css";
+import "@justweb3/widget/styles.css";
 
 export const capsuleClient = new CapsuleWeb(
   Environment.BETA,
@@ -42,6 +49,29 @@ const config: CreateConfigParameters = {
 const wagmiProviderConfig = createConfig(config);
 
 const queryClient = new QueryClient();
+
+const justweb3Config: JustWeb3ProviderConfig = {
+  config: {
+    origin: "http://localhost:3000/",
+    domain: "localhost",
+    signInTtl: 86400000,
+  },
+  openOnWalletConnect: true,
+  allowedEns: "all",
+  logo: "",
+  ensDomains: [
+    {
+      ensDomain: import.meta.env.VITE_JUSTANAME_ENS_DOMAIN,
+      apiKey: import.meta.env.VITE_JUSTANAME_API_KEY,
+      chainId: 11155111,
+    },
+  ],
+  color: {
+    primary: "hsl(216, 90%, 58%)",
+    background: "hsl(0, 0%, 100%)",
+    destructive: "hsl(0, 100%, 50%)",
+  },
+};
 
 const AuthContent = () => {
   const { connect, connectors } = useConnect();
@@ -79,7 +109,11 @@ const AuthWithWagmi = () => {
   return (
     <WagmiProvider config={wagmiProviderConfig}>
       <QueryClientProvider client={queryClient}>
-        <AuthContent />
+        <JustWeb3Provider config={justweb3Config}>
+          <JustWeb3Button>
+            <AuthContent />
+          </JustWeb3Button>
+        </JustWeb3Provider>
       </QueryClientProvider>
     </WagmiProvider>
   );
