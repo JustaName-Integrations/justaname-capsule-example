@@ -71,6 +71,7 @@ const justweb3Config: JustWeb3ProviderConfig = {
     background: "hsl(0, 0%, 100%)",
     destructive: "hsl(0, 100%, 50%)",
   },
+  backendUrl: "http://localhost:3333",
 };
 
 const AuthContent = () => {
