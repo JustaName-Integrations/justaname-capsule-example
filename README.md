@@ -2,10 +2,10 @@
 
 This repository provides an example integration of two powerful tools:
 
-- **Capsule**: An embedded wallet solution that enables seamless cross-app experiences.
+- **Capsule**: An embedded wallet solution that enables cross-app experiences.
 - **JustaName**: An identity layer that offers ENS subname issuance as an out-of-the-box solution for dApps.
 
-By combining these two solutions, developers can unlock a seamless user experience, where users can easily onboard, manage their wallets, and claim ENS subnames, all within the same interface.
+By combining these two solutions, developers can unlock a complete user experience, where users can easily onboard, manage their wallets, and claim ENS subnames, all within the same interface.
 
 ---
 
@@ -24,7 +24,6 @@ By combining these two solutions, developers can unlock a seamless user experien
 3. **Enhanced User Engagement**
 
    - With Capsule managing the wallet and JustaName handling identities, dApps can focus on their core functionality while offering a cohesive experience.
-   - Features like profile viewing, signing out, and editing profiles are seamlessly integrated, empowering users to have complete control over their accounts.
 
 4. **Customization for dApps**
 
@@ -86,8 +85,8 @@ By combining these two solutions, developers can unlock a seamless user experien
 
 For more information, visit the official documentation:
 
-- [JustaName Documentation](https://www.docs.justaname.id/)
-- [Capsule Documentation](https://www.docs.usecapsule.com/)
+- [JustaName Documentation](https://docs.justaname.id/)
+- [Capsule Documentation](https://docs.usecapsule.com)
 
 ---
 
