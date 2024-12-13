@@ -821,34 +821,34 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@justaname.id/react@0.3.158":
-  version "0.3.158"
-  resolved "https://registry.yarnpkg.com/@justaname.id/react/-/react-0.3.158.tgz#d772202ae1d2053d8694b8959c495c03857a0d0d"
-  integrity sha512-3XuXJQnfD/GH/N9zrbNj5qji8USslMQJZk3R1cPVSCovF0Zj5UQHpx1dNnamJmCwfQG/JBZPIPcZhXx6tNuYSg==
+"@justaname.id/react@0.3.162":
+  version "0.3.162"
+  resolved "https://registry.yarnpkg.com/@justaname.id/react/-/react-0.3.162.tgz#e24e9711bc279bd079a5bb2da24b2c52d1e9606a"
+  integrity sha512-yNJ59ozyUj7blFm3LdGuO70wkrG01cMxIFFN99FWXlFQnv2IYmEA+G+StdNb+xpr/htaV5OB5vNBZ5OGGl2NoQ==
   dependencies:
     "@ensdomains/ensjs" "4.0.2"
-    "@justaname.id/sdk" "0.2.155"
+    "@justaname.id/sdk" "0.2.159"
     axios "^1.6.0"
     qs "^6.12.0"
 
-"@justaname.id/sdk@0.2.155":
-  version "0.2.155"
-  resolved "https://registry.yarnpkg.com/@justaname.id/sdk/-/sdk-0.2.155.tgz#dcef218d61aeb269e559b96d670b71bf50948244"
-  integrity sha512-X3mijYTtP5ie02z+rRVl2RAzEXOb16h5iSR+Ulv58TcBuEi/+GPxGVxU8LG2HGhbb3Jq36C5SMgFDmxeP+LsRw==
+"@justaname.id/sdk@0.2.159":
+  version "0.2.159"
+  resolved "https://registry.yarnpkg.com/@justaname.id/sdk/-/sdk-0.2.159.tgz#512a453452d4664a5bc2a104bcdffe68427d44b6"
+  integrity sha512-ZB3nU8pufIwLxvBUSa0/Q7R42FJrO/YaLKu7iVUMbb7yRwkmEYgyWfcxi1G3g5pRaY/Z0ZCozzw+HQEpsF+0qA==
   dependencies:
-    "@justaname.id/siwens" "0.0.88"
+    "@justaname.id/siwens" "0.0.92"
     axios "^1.6.0"
     qs "^6.12.0"
 
-"@justaname.id/siwens@0.0.88":
-  version "0.0.88"
-  resolved "https://registry.yarnpkg.com/@justaname.id/siwens/-/siwens-0.0.88.tgz#4152d05128a1e12fd78de2758f6ee2ce30dc1ee9"
-  integrity sha512-xg4ZQW6kN/F7VI7hJ+4AIkZYrAkL0q6A93+53oTCWRAqajRADyCD8kfBB5Z07ywoOMnCt3lGFc3/NaPfX7rhkQ==
+"@justaname.id/siwens@0.0.92":
+  version "0.0.92"
+  resolved "https://registry.yarnpkg.com/@justaname.id/siwens/-/siwens-0.0.92.tgz#63cb969b4739cc0178755a70dabdb76a24b47ac0"
+  integrity sha512-q4maaYL2otqEYQ6ajlv1ssdXQ6aCjGhqPlzaY39shCh2bqiDkxA6lFr6nri0dNjkkkFP7aNl0zjEiytTZS/2+w==
 
-"@justweb3/ui@^0.0.94":
-  version "0.0.94"
-  resolved "https://registry.yarnpkg.com/@justweb3/ui/-/ui-0.0.94.tgz#0d73422d7805ce17238454bbf592be8d52e4876c"
-  integrity sha512-oTpv3BKiKt9Y3A0V0khU9CTWMU0ldhW7B+LnJWx1epRVxXRulmpBf45NSPajnwMRLDiBsWaR/+FQjhJN40QFdw==
+"@justweb3/ui@^0.0.98":
+  version "0.0.98"
+  resolved "https://registry.yarnpkg.com/@justweb3/ui/-/ui-0.0.98.tgz#68854a941c8c0b21ea44c2f49678c3fcbaf7596e"
+  integrity sha512-7X2I1v9+VkPlIlBpf5/bx5qQ8tUPq/Kic5hQQSnWFFUe4cJbbUPA+kTbUAwrQWJkuWG7m2AjOWgb7g2IvyePcg==
   dependencies:
     "@radix-ui/react-checkbox" "^1.1.2"
     "@radix-ui/react-dialog" "^1.1.1"
@@ -864,16 +864,16 @@
     input-otp "^1.2.4"
     react-hook-form "^7.53.0"
 
-"@justweb3/widget@0.0.94":
-  version "0.0.94"
-  resolved "https://registry.yarnpkg.com/@justweb3/widget/-/widget-0.0.94.tgz#c8356383dc206b439c05bb8ff4fdab0a85cd48d5"
-  integrity sha512-4DH0qotvJ/vGZY1TxqygguBniiTv25cPSyBKRwGLHzJE+dL0olqxcAWoo/QMADAYbomVvFTO6+GwnfCgoyK8dw==
+"@justweb3/widget@^0.0.98":
+  version "0.0.98"
+  resolved "https://registry.yarnpkg.com/@justweb3/widget/-/widget-0.0.98.tgz#bdd2593cc211c6c22de444bdaa211b13a2589384"
+  integrity sha512-yJ4IuBFqFv1gAg2Bhdb9VA+I3BierKWMKviUQgP/N09xDNr4rfWFhHLCrYALZvXXiindqg6diOo1x+KhTXrHlA==
   dependencies:
     "@ensdomains/address-encoder" "^1.1.2"
     "@hookform/resolvers" "^3.9.0"
-    "@justaname.id/react" "0.3.158"
-    "@justaname.id/sdk" "0.2.155"
-    "@justweb3/ui" "^0.0.94"
+    "@justaname.id/react" "0.3.162"
+    "@justaname.id/sdk" "0.2.159"
+    "@justweb3/ui" "^0.0.98"
     clsx "1.2.1"
     cropperjs "^1.6.2"
     lodash "4.17.21"

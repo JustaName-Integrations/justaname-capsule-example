@@ -79,13 +79,9 @@ const AuthContent = () => {
   const { address, isConnected } = useAccount();
   const { disconnect } = useDisconnect();
 
-  console.log("Connectors", connectors);
-  console.log("Address", address);
-  console.log("IsConnected", isConnected);
-
   return (
     <div>
-      <h1>AuthWithWagmi</h1>
+      <h1>Capsule 🤝 JustaName</h1>
       {isConnected ? (
         <div>
           <p>Connected as {address}</p>
